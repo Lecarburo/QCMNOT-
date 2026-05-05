@@ -26,6 +26,12 @@ npm run dev
 
 Vite affiche ensuite l'URL locale, en general `http://localhost:5173`.
 
+## Acces en ligne
+
+Une fois GitHub Pages active avec la source `GitHub Actions`, le site est disponible ici :
+
+https://lecarburo.github.io/QCMNOT-/
+
 ## Verification
 
 ```bash
