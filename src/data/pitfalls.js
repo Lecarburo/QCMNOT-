@@ -1,0 +1,18 @@
+export const pitfalls = [
+  "IPv6 n'utilise pas ARP.",
+  "IPv6 n'utilise pas le broadcast.",
+  "fe80::/10 est link-local et non routable.",
+  "ff02::1 = tous les noeuds du lien local.",
+  "ff02::2 = tous les routeurs du lien local.",
+  "SLAAC utilise les Router Advertisement.",
+  "DHCPv6 n'est pas toujours obligatoire.",
+  "ICMPv6 est indispensable au bon fonctionnement d'IPv6.",
+  "Le /64 est tres courant en LAN IPv6.",
+  "La compression :: ne peut etre utilisee qu'une seule fois.",
+  "Un routeur Cisco doit avoir ipv6 unicast-routing pour router IPv6.",
+  "Un ping IPv6 peut declencher des echanges NDP avant l'Echo Request.",
+  "Une adresse link-local peut necessiter une interface avec %eth0 ou %12.",
+  "2001:db8::/32 sert a la documentation et aux exemples, pas a Internet reel.",
+  "Une adresse multicast commence par ff.",
+  "Une ULA commence souvent par fd et reste destinee au reseau interne.",
+];
